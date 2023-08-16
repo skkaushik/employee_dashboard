@@ -1,13 +1,22 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* styles.css */
+
+.employee-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  background-color: #f9f9f9;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.employee-card img {
+  max-width: 100px;
+  border-radius: 50%;
 }
+
+.employee-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Add more styles as needed */
