@@ -38,7 +38,7 @@ const EmployeeList = () => {
 
   return (
     <div className="employee-list">
-       <div><SearchBar/></div>
+       {/* <div><SearchBar/></div> */}
       {employees.map((employee) => (
         <EmployeeCard
           key={employee.id}
